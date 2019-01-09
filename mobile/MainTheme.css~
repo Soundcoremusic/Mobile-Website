@@ -1,0 +1,370 @@
+html, body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-image:url("../../../images/mobileBackground.jpg");	
+	background-size:100% 100%;
+}
+
+
+.container{
+	height:inherit;
+	width:inherit;
+	min-width:320px;
+	min-height:480px;
+	max-width:800px;
+	max-height:1280px;
+	padding:0;
+	margin:0 auto;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 640px) and (orientation:portrait){
+
+
+/*HEADER SECTION*/
+
+	.row{
+		margin-left:0px;
+		margin-right:0px;
+	}	
+
+	header{
+		width:100%;
+		height:72px;			
+		border-bottom:3px solid black;
+		background-color:white;
+		font-size:8px;
+		display:block;
+		margin:0 auto;	
+	
+	}
+			
+	header i{
+		font-size:4em;
+		position:relative;
+		top:0.5em;
+		left:0.5em;	
+}
+	header div{
+		width:100%;
+		margin:0;
+	}		
+	
+	.info{
+		border:3px solid black;
+        	height:3em;
+		background-color:white;
+		color:black;
+		margin-top:1em;
+        	border-radius:20px;
+        	text-align:center;
+        	float:right;
+        	max-width:96px;
+	}	
+	
+	.info h4{
+		display:inline;
+		float:right;
+        	margin:0;   
+	}
+	
+	.info h4 span{
+		font-size:.75em;
+		display:inline;
+		float:right;
+		line-height:1.3;
+		margin-left:5px;
+		margin-right:5px;
+	}
+
+	.info:active{
+		background-color:black;
+		color:white;
+	}
+
+
+	
+	#logo{
+		height:68px;
+		display:block;
+		margin:0 auto;
+	}
+
+    	main{
+       		position:relative;
+		height: 700px;
+		width:100%;
+		background-color:white;
+		border-top:3px solid black;
+		border-bottom:3px solid black;
+		margin-top:15px;
+		font-size:8px;	
+	}
+
+	
+	main #welcome{
+		text-align:center;
+		font-size:2em;
+		font-weight:bold;
+	}
+	
+	main img{
+		width:100%;
+		display:block;
+		margin:0 auto;
+		opacity:0.75;
+	}
+	
+	
+	main p{
+		margin-top:2em;
+		text-align:justify;
+		padding-left:1em;
+		padding-right:1em;
+		font-size:2em;
+	}
+
+	footer{
+		height:4em;
+		width:100%;
+		background-color:black;
+		color:white;
+	}
+	
+	footer a img{
+		display:block;
+		margin:auto;
+	}	
+
+	footer .row{
+		margin-top:15px;	
+	}
+
+	.social{
+		height:30px;
+		width:30px;
+		margin-top:1em;
+	}
+	
+	#greeting{
+		position:absolute;
+		text-align:center;
+		display:block;	
+		min-width:240px;
+		width:75%;
+		max-width:480px;	
+		margin:15%;
+		border-radius:25px;
+		border:3px solid black;
+		background-color:white;
+		color:black;
+		padding-left:1em;
+		padding-right:1em;
+		top:3em;	
+	}
+	
+    .active{
+        background-color:#000000;
+        color:#FFFFFF;
+    }
+
+
+    nav{
+	height:100%;    	
+    	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:#111;
+	overflow-x:hidden;
+	transition:0.5s;
+	padding-top:60px;
+	text-align:center;
+    }
+
+    nav a{
+    	padding: 8px 8px 8px 32px;
+	text-decoration:none;
+	font-size:25px;
+	color:#818181;
+	display:block;
+	transition:0.3s;
+    }
+	
+    nav a:hover{
+    	color:#f1f1f1;
+    }	
+
+    nav .closebtn {
+    	position:absolute;
+	top: 0;
+	right: 25px;
+	font-size:36px;
+	margin-left:50px;
+    }	
+	
+    #tables{
+    	background-color:#FFFFFF;
+	color:#000000;
+	border-bottom:3px solid black;
+	margin-top:10px;
+	width:100%;
+    }
+	
+
+    #tables th{
+    	text-align:center;
+	font-size:24px;
+	letter-spacing:5px;
+    } 		    
+
+    #tables tr{
+    	border-top:3px solid black;
+    }    
+		
+
+    #tables tr td:nth-child(odd){
+    	background-color:black;
+	color:white;
+    }
+    #tables tr td:nth-child(even){
+    	background-color:white;
+	color:black;
+    }
+
+    #tables tr td{
+	padding:5px;
+	width:50%;
+	text-align:center;
+    } 
+	
+    #phone, #hours{
+    	width:inherit;
+    
+    }	    	
+ 
+
+
+}
+
+
+
+
+
+
+
+/*------Tablet and Larger Screen sizes-----*/
+
+
+@media screen and (min-width: 641px) and (max-width:800px){
+	header{
+		height:142px;
+		background-color:white;
+		border-bottom:3px solid black;
+		
+	}	
+	header table{
+		font-size:1.5em;
+	}
+	#logo{
+		height:138px;
+	}
+	header div i{
+		font-size:6em;	
+	}	
+		
+
+
+}
+
+
+
+
+
+
+
+
+/*------iPhone 4 Styles ------*/
+
+
+
+@media screen and (width: 320px) and (height: 480px){
+
+	.info h4{
+		display:inline;
+		float:right;
+		margin:0;
+		font-size:2em;
+
+	}
+	
+	.info h4 span{
+		line-height:1.35;
+	}	
+
+	#greeting h3
+	{
+		font-size:2.5em;
+		font-weight:bold;
+		
+	}
+	main{
+		height:700px;
+	}
+	
+	header div i{
+	
+	}
+
+
+
+}
+
+/*---------iPhone 5----------*/
+
+@media screen and (width: 320px) and (height: 568px){
+
+
+	.info h4{
+		font-size:1.95em;
+	}
+		
+	#greeting h3{
+		font-size:2.5em;
+		
+
+	}
+
+	.info h4 span{
+		line-height:1.5;
+	}	
+
+
+
+}
+
+
+
+
+
+
+/*------iPhone 6, Nexus 6, and Galaxy S8-------*/
+
+@media screen and (min-width: 360px) and (max-width: 480px){
+
+
+	.info h4{
+		margin-right:5px;
+	}		
+	
+	
+
+
+
+
+}
+

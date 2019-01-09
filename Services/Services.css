@@ -1,0 +1,173 @@
+/*--------------------------------IOS / iPhone Styling--------------------------------*/
+/*------iPhone 4 Styles ------*/
+@media screen and (width: 320px) and (height: 480px){
+
+	.info h4{
+		display:inline;
+		float:right;
+		margin:0;
+		font-size:2em;
+
+	}
+	
+	.info h4 span{
+		line-height:1.35;
+	}	
+
+	#greeting h3
+	{
+		font-size:24px;
+		font-weight:bold;
+		
+	}
+	main{
+		height:1550px;
+	}
+	
+
+
+}
+
+/*---------iPhone 5----------*/
+@media screen and (width: 320px) and (height: 568px){
+
+	.info h4{
+		font-size:1.95em;
+	}
+		
+	#greeting h3{
+		font-size:20px;
+	}
+
+	.info h4 span{
+		line-height:1.2;
+	}	
+
+	#menu-button{
+		top:2em
+	}
+	
+	#transfers{
+		margin-top:30px;
+	}	
+	
+	#installs .SectionDesc{
+		font-size:12px;	
+	}
+	
+	/*Main Section*/
+	main{
+		font-size:12px;		
+	}
+
+	main p{
+		font-size:16px;
+	}
+	
+	.CategoryHeader{
+		font-size: 30px;	
+	}
+
+	.CategoryDesc{
+		font-size:18px;
+	}
+	
+	main{
+		height:1600px;
+	}
+
+}
+
+
+/*------iPhone 6, iPhone 7, and iPhone 8-------*/
+@media screen and (device-width: 375px) and (device-height: 667px){
+	
+	.container
+	{
+		width:375px;
+	}
+	
+	body
+	{
+		font-size:12px;
+	}
+
+	.info h4{
+		margin-right:5px;
+	}		
+	
+	#menu-button{
+		top:2em;
+	}
+
+	
+
+	main{
+		height:1750px;
+		
+	}
+	
+	
+}
+
+/*------iPhone 6, iPhone 7, and iPhone 8-------*/
+@media screen and (width: 414px) and (height: 736px)
+{
+	main{
+		height:2000px;
+	}
+	
+	.CategoryHeader{
+		font-size:40px;
+		font-weight:bold;
+	}
+	
+	
+	/*Section Link Styling*/
+	.SectionHeader{
+		padding-top:5px;
+		padding-bottom:5px;
+		font-size:30px;
+	}
+	
+	.SoundCoreSection{
+		margin-bottom:60px;
+		height:414px;
+		width:414px;
+		background-size:100% 100%;		
+	}
+	
+	.SectionDesc{
+		font-size:16px;
+	}
+
+}
+
+/*-----iPhone X/XS-----*/ 
+@media screen and (width: 375px) and (height: 812px)
+{
+	main{
+		height:1900px;
+		
+	}
+	
+	.CategoryHeader{
+		font-size:38px;
+	}
+	
+	.SectionHeader{
+		padding-top:5px;
+		padding-bottom:5px;
+		font-size:30px;
+	}
+	
+	.SoundCoreSection{
+		margin-bottom:40px;
+		width:375px;
+		height:375px;
+	}
+	
+	
+	
+}
+

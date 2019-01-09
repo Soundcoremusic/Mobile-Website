@@ -1,0 +1,68 @@
+
+/*--------------------------------IOS / iPhone Styling--------------------------------*/
+
+/*-----iPhone 4------*/
+@media screen and (width: 320px) and (height: 480px)
+{
+	main{
+		height:1600px;
+	}
+
+
+}
+
+/*-----iPhone 5 / SE------*/
+@media screen and (width:320px) and (height: 568px)
+{	
+	main{
+		height:1600px;
+	}
+	
+	.SectionHeader{
+		padding-top:5px;
+		padding-bottom:5px;
+		z-index:0;	
+	}
+	
+	.SoundCoreSection{
+		width:320px;
+		height:320px;
+		margin-bottom:40px;
+		
+	}
+	
+	#PA{
+		background-image:url("../../images/PA.jpg");
+	}
+	
+	#PA .SectionDesc{
+		font-size:14px;
+	}
+	
+	#projector .SectionDesc{
+		font-size:14px;
+	}
+
+
+}
+
+/*------iPhone 6, iPhone 7, and iPhone 8-------*/
+@media screen and (device-width: 375px) and (device-height: 667px)
+{
+	
+
+
+
+}
+
+/*------iPhone 6, iPhone 7, and iPhone 8-------*/
+@media screen and (width: 414px) and (height: 736px)
+{
+	main
+	{
+		height:1900px;
+	}
+
+
+
+}
